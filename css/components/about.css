@@ -1,0 +1,31 @@
+.divider {
+  width: 30%;
+  border: none;
+  border-top: 1px solid var(--divider-color);
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about__text {
+  max-width: 240px;
+  margin-left: 60px;
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--about-text-color);
+}
+
+.about__title {
+  width: 360px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--about-title-color);
+}

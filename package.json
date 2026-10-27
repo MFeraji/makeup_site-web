@@ -1,0 +1,14 @@
+{
+  "name": "brand-of-eco-cosmetics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page for an eco cosmetics brand",
+  "scripts": {
+    "start": "http-server . -p 8080 -c-1 -o",
+    "deploy": "gh-pages -d . -s \"{index.html,css/**,images/**,*.png,*.jpg,*.svg,*.ico}\""
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "http-server": "^14.1.1"
+  }
+}

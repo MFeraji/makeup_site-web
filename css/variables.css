@@ -1,0 +1,31 @@
+:root {
+  /* Общие цвета */
+  --color-bg: #e4dfd3;
+  --color-text: #333333;
+  --color-accent: #3d4f17;
+  --color-white: #ffffff;
+
+  /* Header */
+  --header-logo-color: var(--color-accent);
+  --header-link-color: var(--color-accent);
+  --header-cart-color: var(--color-text);
+
+  /* Button */
+  --button-bg: #333333;
+  --button-bg-hover: #000000;
+  --button-text: var(--color-white);
+
+  /* Hero */
+  --hero-title-color: var(--color-text);
+  --hero-text-color: var(--color-text);
+  --hero-image-bg: #c9c2b2;
+
+  /* About */
+  --about-text-color: var(--color-text);
+  --about-title-color: var(--color-accent);
+  --divider-color: #b8b89a;
+
+  /* Шрифт и размеры */
+  --font-main: "Poppins", sans-serif;
+  --container-width: 1140px;
+}

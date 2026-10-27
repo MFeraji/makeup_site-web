@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+.hero__content {
+  padding-left: 60px;
+  max-width: 340px;
+}
+
+.hero__title {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--hero-title-color);
+  margin-bottom: 24px;
+}
+
+.hero__text {
+  font-size: 10px;
+  color: var(--hero-text-color);
+  margin-bottom: 32px;
+}
+
+.hero__image {
+  width: 360px;
+  height: 280px;
+  background-color: var(--hero-image-bg);
+}
+
+.hero__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

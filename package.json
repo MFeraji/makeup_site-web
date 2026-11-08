@@ -4,6 +4,7 @@
   "private": true,
   "description": "Landing page for an eco cosmetics brand",
   "scripts": {
+    "dev": "http-server . -p 8080 -c-1 -o",
     "start": "http-server . -p 8080 -c-1 -o",
     "deploy": "gh-pages -d . -s \"{index.html,css/**,images/**,*.png,*.jpg,*.svg,*.ico}\""
   },

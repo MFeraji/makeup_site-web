@@ -25,7 +25,24 @@
   --about-title-color: var(--color-accent);
   --divider-color: #b8b89a;
 
-  /* Шрифт и размеры */
+  /* Typography and layout */
   --font-main: "Poppins", sans-serif;
   --container-width: 1140px;
+  --container-gutter: clamp(24px, 6.95vw, 100px);
+  --header-height: 88px;
+  --section-space: 112px;
+  --hero-gap: 48px;
+  --hero-image-ratio: 1.38;
+  --product-image-ratio: 1.5;
+  --content-width: 430px;
+  --color-line: #b8b89a;
+}
+
+@media (max-width: 800px) {
+  :root {
+    --container-gutter: 20px;
+    --header-height: 56px;
+    --section-space: 72px;
+    --hero-gap: 24px;
+  }
 }

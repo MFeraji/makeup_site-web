@@ -1,15 +1,15 @@
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.about__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .about__content,
 .about__images {
-  flex: 1;
+    flex: 1;
 }
 
 .about__content {
@@ -48,7 +48,7 @@
 
 .about__images img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: auto;
   object-fit: cover;
 }
@@ -74,29 +74,19 @@
 }
 
 /* تنظیمات عکس دوم برای هم‌اندازه شدن با بقیه تصاویر پروژه */
-.about__img-secondary {
-    flex: 1;                   /* اختصاص فضای مساوی به عکس */
-    width: 100%;
-    max-width: 500px;          /* حداکثر عرض عکس */
-    height: 350px;             /* ارتفاع هماهنگ با عکس بالایی سایت */
-    object-fit: cover;         /* حفظ تناسب و کیفیت تصویر بدون تغییر شکل */
-    border-radius: 12px;       /* نرم کردن لبه‌های عکس */
+.about__images img {
+  display: block;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
 }
 
-/* بهینه‌سازی برای گوشی‌های موبایل */
-@media (max-width: 768px) {
-    .about__highlight-box {
-        flex-direction: column;/* در صفحات کوچک متن و عکس زیر هم می‌روند */
-        gap: 20px;
-    }
-    .about__text-highlight {
-        text-align: center;    /* وسط‌چین شدن متن در موبایل */
-    }
-}
+
+
 @media (max-width: 700px) {
   .about {
     flex-direction: column;
-    align-items: stretch;
+    align-items: stretch; 
   }
 }
 

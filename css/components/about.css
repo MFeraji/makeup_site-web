@@ -274,7 +274,6 @@
   }
 }
 
- HEAD
 @media (max-width: 420px) {
   .shop__categories {
     justify-content: space-between;
@@ -290,17 +289,16 @@
     aspect-ratio: 1.35;
   }
 }
-=======
 
-.media-svg{
+.media-svg {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   padding: 52px 0;
 }
-.midea_svg{
+
+.media_svg {
   max-width: 350px;
   width: 100%;
   height: auto;
 }
- cb395bf (new)

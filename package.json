@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "http-server . -p 8080 -c-1 -o",
     "start": "http-server . -p 8080 -c-1 -o",
-    "deploy": "gh-pages -d . -s \"{index.html,css/**,images/**,*.png,*.jpg,*.svg,*.ico}\""
+    "build": "node scripts/build.mjs",
+    "preview": "npm run build && http-server dist -p 8081 -c-1 -o",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --nojekyll -m \"Deploy to GitHub Pages\""
   },
+  "homepage": "https://mferaji.github.io/makeup_site-web/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "http-server": "^14.1.1"

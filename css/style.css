@@ -1,0 +1,55 @@
+@import url("variables.css");
+@import url("base.css");
+@import url("components/header.css");
+@import url("components/button.css");
+@import url("components/hero.css");
+@import url("components/about.css");
+/* بخش اول: چیدمان کلی فرم و عکس در یک کادر */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.contact__content {
+  flex: 1;
+  max-width: 480px;
+}
+
+.contact__image {
+  flex: 1;
+  max-width: 550px;
+}
+
+.contact__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* بخش دوم: استایل فیلدهای فرم و دکمه مشابه طرح اصلی */
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #8c8c8c;
+  padding: 12px 0;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact__form .button {
+  width: fit-content;
+  padding: 16px 48px;
+  margin-top: 20px;
+}
